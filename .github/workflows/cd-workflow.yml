@@ -3,9 +3,7 @@
 name: Node CI
 
 on:
-  push:
-    paths:
-      - "**Dockerfile**"
+  push
 jobs:
   build:
     runs-on: ubuntu-latest
